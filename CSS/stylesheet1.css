@@ -1,7 +1,7 @@
 #photo-of-MJ{
     height: 683px;
     width: 683px;
-    object-position: top right;
+    float: right;
 }
 
 h1{
