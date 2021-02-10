@@ -1,6 +1,6 @@
 #photo-of-MJ{
-    height: 683px;
-    width: 683px;
+    height: 400px;
+    width: 400px;
     float: right;
 }
 
@@ -10,4 +10,10 @@ h1{
 
 body{
     background-color: #3cec3b;
+}
+
+#BCIT-logo{
+    height: 25px;
+    width: 25px;
+    position: absolute;
 }
