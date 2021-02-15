@@ -1,19 +1,15 @@
 #photo-of-MJ{
-    height: 400px;
-    width: 400px;
     float: right;
 }
 
 h1{
-    color: #0d2048;
+    color: darkorchid;
 }
 
 body{
-    background-color: #3cec3b;
+    background-color: yellow;
 }
 
 #BCIT-logo{
-    height: 25px;
-    width: 25px;
     position: absolute;
 }
