@@ -24,6 +24,10 @@ body{
     background-color: yellow;
 }
 
+#campus-text{
+    font-weight: bold;
+}
+
 #BCIT-logo{
     position: absolute;
 }
