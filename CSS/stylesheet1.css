@@ -1,3 +1,14 @@
+/* Global
+------------------------------------*/
+header h1 {
+    color: darkorchid;
+    text-align: center;
+}
+
+body{
+    background-color: yellow;
+}
+
 .pathfinding{
     background-color: lightblue;
     text-align: center;
@@ -11,18 +22,26 @@
     padding: 20px;
 }
 
+
+/* Index
+--------------------------------*/
+
+
+
+/* Courses
+---------------------------------*/
+
+
+
+/* School
+---------------------------------*/
+
+
+
 #photo-of-MJ{
     float: right;
 }
 
-h1{
-    color: darkorchid;
-    text-align: center;
-}
-
-body{
-    background-color: yellow;
-}
 
 #campus-text{
     font-weight: bold;
