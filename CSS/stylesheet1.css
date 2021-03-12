@@ -29,6 +29,10 @@ footer {
     background: #A6CAD4;
 }
 
+span p {
+    text-align: center;
+}
+
 
 /* Index
 --------------------------------*/
@@ -43,11 +47,19 @@ li a{
     display: inline-block;
 }
 
-
-#photo-of-MJ{
-    float: right;
+#picture-container{
+    padding: 2em;
+    grid-column: 2 / 3;
+    grid-row: 1 / -3;
+    align-items: center;
+    justify-content: center;
 }
 
+#grid-system {
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
 
 
 /* Courses
