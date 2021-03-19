@@ -11,42 +11,44 @@ body {
     background: #EDDDD0;
 }
 
+.grid-system {
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
 nav {
     background:#A6CAD4;
-    text-align: center;
+    margin: 0;
 }
 
 a:hover {
     color: gold;
 }
 
-ul.links {
+.links{
     margin: 0;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
     list-style-type: none;
+}
+
+li a{
+    padding: 1em;
+    display: inline;
+    text-align: center;
 }
 
 footer {
     background: #A6CAD4;
-}
-
-span p {
     text-align: center;
 }
 
 
+
 /* Index
 --------------------------------*/
-div {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-}
-
-li a{
-    padding: 15px;
-    display: inline-block;
-}
-
 #picture-container{
     padding: 2em;
     grid-column: 2 / 3;
@@ -55,11 +57,7 @@ li a{
     justify-content: center;
 }
 
-#grid-system {
-    display: grid;
-    grid-template-columns: 1.75fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-}
+
 
 
 /* Courses
@@ -73,3 +71,7 @@ li a{
     font-weight: bold;
 }
 
+aside{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
