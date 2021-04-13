@@ -25,6 +25,10 @@ nav {
     margin: 0;
 }
 
+dt {
+    font-weight: bold;
+}
+
 a:hover {
     color: gold;
 }
@@ -88,6 +92,10 @@ footer {
     aside{
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+    }
+
+    .description {
+        grid-column: 2 / 3;
     }
 
 }
