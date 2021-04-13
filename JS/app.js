@@ -21,5 +21,5 @@ const courseArray = [
 let courseCode;
 do{
     courseCode = prompt("Enter code: ");
-} while(isNaN(courseCode) === true && courseCode.length > 3)
+} while(isNaN(courseCode) === true || courseCode.length != 4)
 
