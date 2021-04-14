@@ -20,6 +20,18 @@ const courseArray = [
 
 let courseCode;
 do{
-    courseCode = prompt("Enter code: ");
-} while(isNaN(courseCode) === true || courseCode.length != 4)
+    courseCode = prompt("Enter a numerical four-digit code: ");
+} while(isNaN(courseCode) === true || courseCode.length != 4);
+
+for (let item of courseArray) {
+    
+    if (item.code === "ACIT 1620" && item.name === "Fundamental Web Technologies") {
+        console.log(`Yes I am taking this course: ${item.code} - ${item.name}.`);
+    }
+
+    else {
+
+    }
+
+}
 
